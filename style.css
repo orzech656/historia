@@ -1,13 +1,13 @@
 html{
     font-family: 'Courier New', Courier, monospace;
     color: black;
-    background-color: bisque;
+    background-color: rgb(0, 0, 0);
 }
 #zegar {
     position: absolute;
             top: 10px;
             right: 10px;
-            font-size: 18px;
+            font-size: 30px;
             background-color: rgb(0, 0, 0);
             color: #ffffff;
             
@@ -27,8 +27,16 @@ html{
     width: 20%;
     float: left;
     border: 2px solid black;
-    background-color: bisque;
+    background-color: rgb(0, 0, 0);
     height: 60%;
+}
+#lewy p{
+    border: 1px solid black;
+    background-color: bisque;
+    margin-top: 0px;
+}
+#lewy h3{
+    color: white;
 }
 #stopka{
     width: 100%;
@@ -40,16 +48,14 @@ html{
 }
 #glowny{
     background-image: url(tlo.jpg);
-    width: 79.3%;
+    width: 79.4%;
     height: 60%;
     float: left;
     position: relative;
 }
-#glowny p{
+#glowny p,h2{
     text-shadow: 1px 0 #fff, -2px 0 #fff, 0 1px #fff, 0 -2px #fff,
              1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
-             
+    font-size: 22px;
+
 }
-img {
-    opacity: 0.5;
-  }
